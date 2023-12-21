@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".StartAppActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:src="@drawable/backarro" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/calculation_utilities"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdmutual"
+                android:layout_width="170sp"
+                android:layout_height="150sp"
+                android:layout_marginStart="20sp"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="50sp">
+
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_margin="15sp"
+                    android:background="@color/lightblue"
+                    android:scaleType="center"
+                    android:src="@drawable/mutualfund" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90sp"
+                    android:gravity="center"
+                    android:text="@string/mutual_fund"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120sp"
+                    android:gravity="center"
+                    android:text="@string/know_more" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdintrest"
+                android:layout_width="170sp"
+                android:layout_height="150sp"
+                android:layout_marginStart="30sp"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="50sp">
+
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_margin="15sp"
+                    android:background="@color/lightblue"
+                    android:scaleType="center"
+                    android:src="@drawable/intrestlogo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90sp"
+                    android:gravity="center"
+                    android:text="@string/intrest"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120sp"
+                    android:gravity="center"
+                    android:text="@string/know_more" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crddiscound"
+                android:layout_width="170sp"
+                android:layout_height="150sp"
+                android:layout_marginStart="20sp"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="50sp">
+
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_margin="15sp"
+                    android:scaleType="center"
+                    android:background="@color/lightblue"
+                    android:src="@drawable/dicount" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90sp"
+                    android:gravity="center"
+                    android:text="@string/discound"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120sp"
+                    android:gravity="center"
+                    android:text="@string/know_more" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdemi"
+                android:layout_width="170sp"
+                android:layout_height="150sp"
+                android:layout_marginStart="30sp"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="50sp">
+
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_margin="15sp"
+                    android:scaleType="center"
+                    android:background="@color/lightblue"
+                    android:src="@drawable/emi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90sp"
+                    android:gravity="center"
+                    android:text="@string/emi"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120sp"
+                    android:gravity="center"
+                    android:text="@string/know_more" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdresult"
+                android:layout_width="170sp"
+                android:layout_height="150sp"
+                android:layout_marginStart="20sp"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="50sp">
+
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_margin="15sp"
+                    android:background="@color/lightblue"
+                    android:scaleType="center"
+                    android:src="@drawable/result" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90sp"
+                    android:gravity="center"
+                    android:text="@string/school_result"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120sp"
+                    android:gravity="center"
+                    android:text="@string/know_more" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdx2"
+                android:layout_width="170sp"
+                android:layout_height="150sp"
+                android:layout_marginStart="30sp"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="50sp">
+
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_margin="15sp"
+                    android:scaleType="center"
+                    android:background="@color/lightblue"
+                    android:src="@drawable/x2"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90sp"
+                    android:gravity="center"
+                    android:text="@string/square_or_hour"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120sp"
+                    android:gravity="center"
+                    android:text="@string/know_more" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
