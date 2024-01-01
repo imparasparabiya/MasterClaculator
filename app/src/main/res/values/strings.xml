@@ -35,4 +35,8 @@
     <string name="your_total_marks">Your Total Marks</string>
     <string name="your_marks">Your Marks</string>
     <string name="your_percentage">Your Percentage</string>
+    <string name="input_number">Input Number</string>
+    <string name="number">Number</string>
+    <string name="add_square_or_hour">Add Square or Hour</string>
+    <string name="suqare_or_hour">Suqare or Hour</string>
 </resources>
