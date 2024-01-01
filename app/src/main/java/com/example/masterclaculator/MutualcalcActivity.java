@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,6 +17,8 @@ public class MutualcalcActivity extends AppCompatActivity {
     Button btncalculate;
     EditText edtinvested, edtest, edttotalvalue;
     TextView txtclearall;
+
+    ImageView backarrow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +33,22 @@ public class MutualcalcActivity extends AppCompatActivity {
         edttotalvalue = findViewById(R.id.edttotalvalue);
         txtclearall = findViewById(R.id.txtclearall);
         btncalculate = findViewById(R.id.btncalculate);
+        backarrow = findViewById(R.id.backarrow);
+
+        backarrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+        txtclearall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                clearscreen();
+
+            }
+        });
 
         btncalculate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,4 +89,14 @@ public class MutualcalcActivity extends AppCompatActivity {
         }
     }
 
+    public void clearscreen(){
+
+            edtmontly.setText(" ");
+            edtreturnpr.setText(" ");
+            edttimeyr.setText(" ");
+            edtinvested.setText(" ");
+            edtest.setText(" ");
+            edttotalvalue.setText(" ");
+
+    }
 }

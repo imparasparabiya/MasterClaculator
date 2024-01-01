@@ -48,7 +48,7 @@
                 android:layout_height="150sp"
                 android:layout_marginStart="20sp"
                 app:cardCornerRadius="30sp"
-                app:cardElevation="50sp">
+                app:cardElevation="10sp">
 
                 <ImageView
                     android:layout_width="60sp"
@@ -83,7 +83,7 @@
                 android:layout_height="150sp"
                 android:layout_marginStart="30sp"
                 app:cardCornerRadius="30sp"
-                app:cardElevation="50sp">
+                app:cardElevation="10sp">
 
                 <ImageView
                     android:layout_width="60sp"
@@ -126,7 +126,7 @@
                 android:layout_height="150sp"
                 android:layout_marginStart="20sp"
                 app:cardCornerRadius="30sp"
-                app:cardElevation="50sp">
+                app:cardElevation="10sp">
 
                 <ImageView
                     android:layout_width="60sp"
@@ -161,7 +161,7 @@
                 android:layout_height="150sp"
                 android:layout_marginStart="30sp"
                 app:cardCornerRadius="30sp"
-                app:cardElevation="50sp">
+                app:cardElevation="10sp">
 
                 <ImageView
                     android:layout_width="60sp"
@@ -204,7 +204,7 @@
                 android:layout_height="150sp"
                 android:layout_marginStart="20sp"
                 app:cardCornerRadius="30sp"
-                app:cardElevation="50sp">
+                app:cardElevation="10sp">
 
                 <ImageView
                     android:layout_width="60sp"
@@ -239,7 +239,7 @@
                 android:layout_height="150sp"
                 android:layout_marginStart="30sp"
                 app:cardCornerRadius="30sp"
-                app:cardElevation="50sp">
+                app:cardElevation="10sp">
 
                 <ImageView
                     android:layout_width="60sp"
